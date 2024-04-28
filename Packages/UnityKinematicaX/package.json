@@ -1,0 +1,45 @@
+{
+  "name": "voxell.kinematicax",
+  "displayName": "KinematicaX",
+  "version": "0.9.0-preview",
+  "unity": "2021.2",
+  "description": "A next-generation character animation system built on top of Unity's Kinematica.\n\nThis technology provides a solution for character animation that does not rely on animation graphs while achieving a higher level of quality and at the same time offers the same level of control, versatility and flexibility.\n\nKinematica allows the use of raw animation clips or motion capture data directly without the necessity to organize them in an animation graph. Describe the intended movement of your character and Kinematica produces the corresponding poses automatically.\n\nAt the heart of Kinematica lies a considerably improved version of Motion Matching that achieves a near constant time lookup for arbitrary complex motion databases and does not rely on parameter tweaking or magic numbers.",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.collections": "1.2.4",
+    "com.unity.burst": "1.8.13"
+  },
+  "samples": [
+    {
+      "displayName": "Hello World",
+      "description": "A 'Hello World' sample",
+      "path": "Samples~/Hello World"
+    },
+    {
+      "displayName": "Biped Locomotion",
+      "description": "A player controlled biped locomotion sample",
+      "path": "Samples~/Biped Locomotion"
+    },
+    {
+      "displayName": "Navigation",
+      "description": "Pathfinding and navigation sample on biped using Kinematica",
+      "path": "Samples~/Navigation"
+    },
+    {
+      "displayName": "Snappy Locomotion",
+      "description": "Sample showcasing a reactive player controlled biped with few animations",
+      "path": "Samples~/Snappy Locomotion"
+    },
+    {
+      "displayName": "Short Animation Clips",
+      "description": "A player controlled biped locomotion sample that uses short animation clips",
+      "path": "Samples~/Short Animation Clips"
+    },
+    {
+      "displayName": "Snapshot Debugger",
+      "description": "Sample scene showcasing the snapshot debugger",
+      "path": "Samples~/Snapshot Debugger"
+    }
+  ],
+  "hideInEditor": false
+}
